@@ -2,6 +2,7 @@
 title: ubuntu16.04下安装atom
 date: 2017-11-29 11:43:47
 tags: ubuntu atom
+categories: 技术
 ---
 # 第一步
 `sudo add-apt-repository    ppa:webupd8team/atom`

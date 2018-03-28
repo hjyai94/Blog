@@ -2,6 +2,7 @@
 title: ubuntu下时间同步
 date: 2017-12-04 16:26:14
 tags: ubuntu
+categories: 技术
 ---
 `sudo apt-get install nipdate`
 `sudo ntpdate time.nist.gov`

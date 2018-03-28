@@ -2,6 +2,7 @@
 title: GAN（生成对抗网络）
 date: 2018-01-30 15:01:17
 tags: GAN
+categories: 学习
 ---
 生成对抗网络（Generative Adersarial nets），基本思想就是同步训练生成模型G和判别模型D，
 生成模型G服从数据分布，判别模型D用来判断样本是来自于生成模型G还是训练数据。

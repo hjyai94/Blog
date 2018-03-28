@@ -2,6 +2,7 @@
 title: git使用
 date: 2018-02-01 09:20:45
 tags: git
+categories: 技术
 ---
 创建新的仓库 `git init`
 从服务器上克隆库 `git clone 路径`

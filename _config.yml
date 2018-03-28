@@ -87,6 +87,24 @@ math:
     config:
       # KaTeX config
 
+markdown_it_plus:
+     highlight: true
+     html: true
+     xhtmlOut: true
+     breaks: true
+     langPrefix:
+     linkify: true
+     typographer:
+     quotes: “”‘’
+     pre_class: highlight
+
+# 网站搜索
+algolia:
+  applicationID: 'HR62QHMRVP'
+  apiKey: '5003cc57039452aa0e152bdb9198ed17'
+  adminApiKey: '6f8889079948068e82cae886550b2a22'
+  indexName: 'dev_NAME'
+  chunkSize: 5000
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
