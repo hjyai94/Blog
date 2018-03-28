@@ -12,4 +12,4 @@ categories: 技术
 `sudo apt-get install atom`
 # 问题
 中间出了点问题，找不到图了，所以就不贴了。
-![](https://github.com/hjyai94/Blog_Image/raw/master/avatar.png)
+![](https://github.com/hjyai94/Blog/blob/master/source/uploads/avatar.png)
