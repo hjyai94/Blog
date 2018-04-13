@@ -37,3 +37,31 @@ confusion
 full
 * complimentray upgrade
 free
+
+# englishpod_C0004
+* resources
+money
+* understaffed
+not enough people to do the job
+* the timing is just not right
+it is not the right now
+* weight off my sholders
+remove pressure or stress
+* give me a hand
+help out
+* keep our cost down
+to not to spend much money
+* intern
+实习生
+
+# englishpod_C0005
+* unbelievable
+something is amazing
+* a mile long
+this line is really long
+* there is no way
+it is not possible
+* cut in line
+somebody get in front of you
+* so
+take 
