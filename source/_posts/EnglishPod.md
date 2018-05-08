@@ -318,11 +318,319 @@ a plan that prepares for a situation where things go wrong
 * vaccine
 疫苗
 
+# englishpod_B0026
+* eating habits
+the regular way you eat
+* junk food
+* transform
+* I'm stuffed
+* stick to it
+keep doing it
+* I mean it.
+I'm serious.
+* cut out
+* wait and see
 
+# englishpod_B0027
+* vacation day
+* overseas
+* unpaid leave
+* notice
+* Do you have a second?
+Do you have a minute/sec?
+* Would you be OK with that?
+will it be OK with that?
+* I was just wondering
+I was just hoping that
 
+# englishpod_C0028
+* relieved
+* pick me up
+come and get me
+* ordinary
+* make it up to you
+* my treat
+* twist of fate
 
+# englishpod_E0029
+* merging market
+developing
+* turmoil
+a state of confusion
+* proposed
+* hit up
+ask for money
+* inevitable
 
+# englishpod_C0030
+* thoughtful
+* give me the creeps
+make me feel uncomfortable
+* rope me into something
+* appetite
+strong desire for food
+* get to know someone
+* why on earth
 
+# englishpod_B0031
+* reshedule
+change for another day or time
+* inconvenience
+* postpone
+delay
+* can not make it
+can't do something
+* this thing comes up
+
+# englishpod_C0032
+* chequing account
+* savings account
+* transaction
+* balance
+* overdraft
+* debit card
+* I'll get you to
+* I need your insurace number.
+* If you could sign here?
+
+# englishpod_B0033
+* foul
+* ref
+* free throw
+* make a shot
+to successful
+* 3 pointer shot
+* travel
+take more than two steps with the ball
+* screw up
+to make a mistake
+* beer run
+to go and get a beer
+
+# englishpod_D0034
+* swear in
+swore in
+* oath
+a promise
+* deliver
+say a speech
+* who's who
+* palpable
+* in a word
+* go down in history
+* my fellow Americans
+dear
+
+# englishpod_C0035
+* a good fit
+suitable for the job
+* performance
+* unreliable
+reliable
+* productive
+* work ethic
+* coach
+train
+* the bottom of line
+the most important point
+* overall
+* perfectly good
+
+# englishpod_B0036
+* get a hold
+* stand me up
+fail to keep the appointment to meet someone
+* priority
+* heading
+going
+* Do you have any idea how
+* I heard it before
+* take a break
+stop their relationship
+* decency
+polite or moral bahavior
+* get your priorities straight
+realize what is more important
+
+# englishpod_C0037
+* dumping
+水饺
+* firecracker
+* set off
+* I can't wait to
+* I bet
+* red envelope
+* mahjong
+
+# englishpod_C0038
+* vehicle
+* sedan
+a car with four doors
+* gas mileage
+the amount of gas used per mile
+* airbags
+* brake
+* reinforce
+make stronger
+* I'm just browsing
+* sleep on it
+to think about it
+
+# englishpod_B0039
+* heard
+* fill me in
+tell me about something
+* career path
+* In  his early 30s
+
+# englishpod_B0040
+* on board
+welcome to the company
+* about to
+* instead
+in the  place of
+* intrepret
+
+# englishpod_C0041
+* posses
+* survival
+* defend
+protect
+* rough
+hard
+* at all costs
+no matter what
+* stand in one's way
+
+# englishpod_B0042
+* deadline
+* extension
+* run into
+run into some problem
+* delay
+* be under control
+* put this off
+* press kit
+groups of photos, documents, articals, and information about company given to reporters, newspapers,magazines,etc.
+* finalize
+finish
+
+# englishpod_C0043
+* visa
+签证
+* sponsor
+* invitation letter
+* ties
+* financially independent
+
+# englishpod_B0044
+* barely even
+* catch the news
+hear the news
+* by the way
+* take the stairs
+* do you happen to
+by chance
+
+# englishpod_C0045
+* on a break
+* seeing someone
+dating or going out with someone
+* cheat on
+* mess this up
+* immature  
+* selfish
+* everything is going to work out just fine.
+* pull yourself together
+calm down
+* It's going to be alright.
+
+# englishpod_D0046
+* CPR
+* BP
+blood pressure
+* hook up
+* out of woods
+free from danger
+* defibrillator
+
+# englishpod_C0048
+* ticket scalper
+黄牛
+* prestigious
+being respected and admired for being successful or important
+* float
+* once in the lifetime
+* good thing
+* no kidding
+I totally agree with you
+
+# englishpod_C0049
+* concert
+* hottest
+* fine then
+* I was wondering can I
+Do you think
+would you mind
+
+# englishpod_C0050
+* appetite
+* poison
+* points
+suggestions
+* aroma
+special smell
+* bitter
+* pass out
+become unconscious
+* make yourself at home
+
+# englishpod_C0051
+* price range
+* shop around
+* pricey
+* a better deal
+* That's my best offer.
+That's my last offer.
+* exclusive
+not common, unique
+
+# englishpod_C0052
+* medium
+12 inch
+larger
+* pepperoni
+a spicy sausage usually on pizza
+* olives
+* extra cheese
+* ham
+* pineapple
+* thin crust
+* would you like
+
+# englishpod_C0053
+* head chef
+the main cook
+* cuisine
+* peel
+remove the outside
+* chop
+* stir
+mix
+* butcher
+* butter
+* in the weeds
+you are really busy
+* run low on
+not something left
+* do really well
+
+# englishpod_C0054
+* blaze
+fire
+* in the middle of nowhere
+* first thing in the morning
+* everything seems to be order
 
 
 
