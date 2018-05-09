@@ -632,8 +632,22 @@ fire
 * first thing in the morning
 * everything seems to be order
 
+# englishpod_C0055
+* puck
+* key game
+* finals
+* face-off
+* goalie
+saver
+* breakaway
 
-
+# englishpod_C0056
+* fill in
+* replicas
+* tap
+* map out
+* screw it up
+* lose your cool
 
 
 
