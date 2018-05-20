@@ -649,17 +649,245 @@ saver
 * screw it up
 * lose your cool
 
+# englishpod_C0057
+* malfunction
+* ASAP
+as soon as possible
+* practical joke
+* never mind
+* out of to
+* on your way up
+* break down
+break in
+break out
+* toner
+ink used in a printer or photocopier
 
+# englishpod_C0058
+* turbulence
+* flight crew
+* bumpy ride
+* fasten
+fasten your seat belt
+* lavatory
+* stow
+* refrain
+* remain seated
+* patch
+* suspend
+stop for a short time
 
+# englishpod_E0059
+* CRM
+custom relationship manager
+* custom designed
+custom built house
+* core values
+* undisputed
+the is no doubt
+* growth oppotunity
+* read up
+* unleash potential
+* resonate
 
+# englishpod_C0060
+* drag
+* tie somebody up
+* fools
+* fell for it
+* the cat is out of the bag
+the truth is out
+* pretend
+* gullible
+easily beliving something that is not true, eaily fooled
 
+# englishpod_C0061
+* sail
+* anchor
+* doggy-paddling
+swim like a dog
+* breast stroke
+* backstroke
+* take a dip
+* for a little while
 
+# englishpod_C0062
+* major
+main subject
+* minor
+* course of study
+* track
+path
+* hence
+* pursued
+to chase
+* strive
+to try real hard
+* breadth
+* implement
+* postgraduate
+masters or PH.D;
+* initiative
+倡议
+* churn rate
+客户流失率
+* coordinate
+协调
 
+# englishpod_C0063
+* certainly
+* may I take your name?
+* monmentarily
+in a short
+* ready for
 
+# englishpod_C0064
+* sleep with
+* confess
+you tell a secret that you are hiding
+* overwhelm
+* jelousy
+* jerk
+stupid and mean person
+* bastard
+* bun in the oven
+pregnant
+* I can't help myself
+* come into the picture
+appear into one's life
+* cheerleading squad
+啦啦队
 
+# englishpod_C0065
+* technical acument
+* excel
+* head
+* struggle
+* punctual
+punctuality
+* adress
+deal with
+* fit
+* acumen
+the ability to think clearly and make good decisions
 
+# englishpod_C0067
+* wingman
+* tired
+* foul
+* kick off
+* out of bounds
+* throw in
+* offside
+* on the brink of
+at a critical point
+* no question about it
+no doubt
+* by a mile
+* penalty kick
+a kick against only the goalkeepwe as a reward for a foul
 
+# englishpod_C0068
+* irrefutable
+* flaw
+* systemetic
+following the certain order
+* extensive research
+* conclusive evidence
+final decision
+* investigative approch
+* definite conclusion
+* oblivious to
+unware or don't know
+* proposterous
+crazy, foolish, or silly
 
+# englishpod_C0069
+* picky
+* yolk
+egg yolk
+the white
+* sunny side up
+* fried egg
+* soft boiled egg
+* hard boiled egg
+* egg and soilders
+* scrible eggs
+* feel like
+have desire to do
+* drive me crazy
+make you angry
+* muffin
+a small break or cake people usually eat for breakfast
+
+# englishpod_F0070
+* lingerie
+* awkward
+* granny panties
+* sleepwear
+* nighties
+silky nighties
+* undies
+* mortifying
+extremely embarassing
+* get the hell out of here
+leave
+* get this over with
+
+# englishpod_C0071
+* on tap
+beer served from a barrel; not in a bottle or can
+* happy hour
+* pint
+* appetizer
+a small dish served before meal
+* what about
+be used in making suggestions
+
+# englishopod_C0072
+* preoccupied
+worried
+* direct impact
+* resent
+find something very insulting
+* beat around the bush
+avoid saying something by about other things
+come out with it
+
+# englishpod_C0073
+* pinkie
+* the ring finger
+* the middle finger
+giving the middle finger
+* index finger
+* thumb
+* abide
+live
+
+# englishpod_C0074
+* famished
+very hungry
+* sexist
+* dumbass
+* moron
+someone is stupid
+* tool
+useless
+* chill
+* scream
+* what the hell
+
+# englishpod_C0075
+* toothache
+* x-ray
+* swollen
+* cavity
+a hole in a tooth
+* crown
+the part of the tooth which can be seen
+* filling
+* what seems to be the problem?
+what's wrong?
 
 
 
