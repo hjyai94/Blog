@@ -889,6 +889,341 @@ the part of the tooth which can be seen
 * what seems to be the problem?
 what's wrong?
 
+# englishpod_C0076
+* plus add
+minus
+times
+devided by
+* square root
+* teacher's pet
+suck up
+* smarty pants
+for children
+* konw it all
+
+# englishpod_C0077
+* jam on the breaks
+* spin out
+(a car)slides and makes a turn rapidly in an uncontrolled way
+* the pace car
+* cleanup crew
+the construction crew
+* to tow
+* my partner in crime
+a person you always do things together with
+* a close one
+* stretch
+the final time period
+
+# englishpod_E0078
+* brutality
+violent treatment or behavior
+* important aspect
+* genesis
+* comprehend
+* appalling
+terrible, horrible, shocking
+* hostility
+the attitde of treating something as enemy
+* drastic
+sudden and severe
+* constitute
+form, consist
+* fire into
+shoot guns into a place
+
+# englishpod_B0079
+* spacecraft
+* break through
+* settle this
+* accelerate
+* no loger be
+* once and for all
+* obscure
+
+# englishpod_C0080
+* show up
+* stalk
+follow someone for a long time
+* nut job
+* get worked up
+* soul mate
+* over nothing
+no reason
+* not a day goes by
+* no matter what
+
+# englishpod_B0081
+* trim
+a short cut of hair to make one look clean
+* fancy
+* silky
+silk hair
+* grow out
+* don't just stand there
+* take a little off the top
+take a little off the side
+* curly
+* a million bucks
+very good. To look great
+* sideburns
+hari thar grows on the sides of man
+* fluffy
+soft  
+
+# englishpod_C0082
+* creature
+* break free
+* kidnapper
+* rapist
+* rape
+* lemme see your eyes
+let me see your eyes
+gimme - give me
+* make it out
+able to escape or flee
+
+# englishpod_C0083
+* ATM
+automatic teller machine
+* the local authority
+* slot
+* digit
+* withdraw
+* transfer money
+* pound key
+the push botton marked with #
+
+# englishpod_B0084
+* pharmacy
+medicine
+* milligram
+* price check
+* prescription
+* capsule
+* tablet
+* overdose
+* eye drop
+* be sure not to
+* get a price check
+
+# englishpod_B0085
+* the national anthem
+* pitcher
+throw the ball
+* wind up
+* line drive
+a hit that travels low along the baseline     
+* scramble
+* up at bat
+get ready to hit the ball
+* strike
+* curve ball
+
+# englishpod_C0086
+* landlord
+the owner of house
+* tenant
+the person that rents a house
+* renovate
+make a new again
+* airy
+spacious so that air moves freely
+* square footage
+* applicance
+* gas range
+a stove that uses to cook
+* prefessional greed
+* spaciou
+latge; having lots of space
+* walk-in closet
+a room containedf in a bedroom for storing clothes
+* en suit bathroom
+a bathroom within the main bedroom
+
+# englishpod_B0087
+* unidentified ship
+* seach party
+* a deep voice
+* offentic
+* wig
+artificial hair
+* under attack
+under fire
+* sustain
+damage
+* the nature of
+* warp drive
+
+# englishpod_B0088
+* here's the thing
+give somebody some information
+* I can't take it anymore
+* Are you serious?
+* have guts to
+courage
+* just two of us
+just three of us
+* give me a shot
+give me an oppotunity
+* pros and cons
+good things and bad things about a person
+
+# englishpod_C0089
+* piece of luggage
+* carryon luggage
+* overhead compa
+* how am I be supposed to
+* There's nothing I can do
+* next to nothing
+very cheap
+
+# englishpod_D0090
+* spy
+* come clean
+confess
+* renource
+* approach someone
+* claim
+* vow
+make a strong promise
+* whereabouts
+the approximate place, where a person or thing is
+* I haven't been completely honest with you
+* I wasn't supposed to
+I shouldn't
+* bureau
+* millennium
+1000 years
+* renowned
+well known
+
+# englishpod_D0091
+* constellation
+a particular shape formed by a group of stars
+* consequence
+negative results
+* downdfall
+failure
+* anguish
+angry, aggressive, wanting to fight
+* a wonder
+* what gives you the right to
+* to play God
+* who are you to
+
+# englishpod_C0095
+* in ages
+* run into
+* freak out
+* stare
+* shriek
+screaming in a very high voice
+* catch up with
+learn about recent past events
+* hilarious
+
+# englishpod_C0096
+* pad
+* far out
+* crash
+* split
+* dig it
+appreciate, like
+* throw a bash
+party  
+host a party
+* take care of business
+* happening scene
+an extremely exciting moment
+* peace out
+see you later
+* groovy
+really cool
+
+# englishpod_D0097
+* weather forcast
+* shower
+a short time rain
+* scattered shower
+* hover around
+stay near a certain level or place
+* temperature
+* isolated downpour
+* gust
+strong, sudden increase in wind speed
+* sleet
+a mix of rain and snow
+* cold front
+* It's going to a tough one
+* mixed bag
+a collection of different kinds of things
+* cloud cover
+the amount of sky that is covered with cloud
+* partly-cloudy skies
+having some cloud and some sun
+
+# englishpod_C0098
+* the bar exam
+the exam to qualify as a lawer
+* flatter
+* I love what you have done with your hair
+* get his look from his mother
+* by the way
+* You haven't aged a day
+you haven't gotten older
+* obnoxious
+really annoying
+
+# englishpod_E0099
+* depict
+* portrayal
+* what's your impression of the film?
+* lack
+* rightfully
+according to law
+* erudite
+having a lot of knowledge
+* fable
+beauriful story about animals that has moral or lesson
+* eternal
+lasting forever
+* accusation
+action of caliming something is wrong
+* plagiarism
+practice of copying other's ideas
+* enchanting  
+attractive, holding one's attention
+* grim
+unpleasant
+* linear
+moving in logical way, from start to end
+* cliche
+something that is to often used so that it loses meaning or importance
+* time-honoured
+something that survives the testing of time
+
+# englishpod_C0100
+* If your don't mind me saying so.
+* Don't get me wrong
+* sure thing
+* born and raised
+* nosy
+too interested in others' private matters
+* the good old U.S of A
+the United States
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
