@@ -1,11 +1,11 @@
----
+﻿---
 title: EM算法实现
 date: 2018-09-05 10:42:01
 tags: deep bayes
 categories: 学习
 ---
 # EM算法
-之前在看概率图模型的时候，写过过于EM算法的内容，不过已经忘记差不多了，最近在看[1]中的材料，感觉有了新的理解，特将这些内容整理成这篇博客。
+之前在看概率图模型的时候，写过关于EM算法的内容，不过已经忘记差不多了，最近在看[1]中的材料，感觉有了新的理解，特将这些内容整理成这篇博客。
 EM算法适用于存在隐变量的情况，或者说是假设存在因变量对系统进行推导。
 \begin{equation}\begin{split} log\ p(X\mid \theta) &= \int q(Z)log\ p(X\mid \theta)dZ \\\\
 &= \int q(Z)log \frac{p(X, Z\mid \theta)}{p(Z\mid X, \theta)}dZ \\\\

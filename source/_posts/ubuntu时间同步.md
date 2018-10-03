@@ -1,4 +1,4 @@
----
+﻿---
 title: ubuntu下时间同步
 date: 2017-12-04 16:26:14
 tags: ubuntu

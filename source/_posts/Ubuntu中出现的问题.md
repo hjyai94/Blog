@@ -1,4 +1,4 @@
----
+﻿---
 title: 记录Ubuntu中出现的问题及解决方案
 date: 2018-06-14
 tags: Ubuntu
