@@ -32,10 +32,15 @@ categories: 工作
 [4] Andrew G, Arora R, Bilmes J, et al. Deep canonical correlation analysis[C]//International Conference on Machine Learning. 2013: 1247-1255.
 将两个神经网络看成两个非线性函数，分别来处理两个模态的数据，最大化网络输出的典型相关性。
 
-# 2018.10
+# 2018.10.11
 多模态医学图像分析
 论文：
+[1] Baltruaitis T, Ahuja C, Morency L P. Multimodal machine learning: A survey and taxonomy[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2018.
+这是一篇综述多模态机器学习的综述文章，我画了这篇文章的思维导图。
+ ![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/Multimodal%20Machine%20Learning.gif)
 
+[2] Cheng X, Zhang L, Zheng Y. Deep similarity learning for multimodal medical images[J]. Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 2018, 6(3): 248-252.
+用了一个所谓的Stacked Denosing Autoencoder 来预训练DNN，用了一个5层的全连接神经网络，将不同模态在第四层输出的差作为相似性矩阵。
 
-
-数据库：
+[3] Zhang Z, Yang L, Zheng Y. Translating and segmenting multimodal medical volumes with cycle-and shape-consistency generative adversarial network[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 9242-9251.
+利用GAN合成数据来提高分割性能，不过GAN合成的数据的分布与实际数据分布是接近的。
