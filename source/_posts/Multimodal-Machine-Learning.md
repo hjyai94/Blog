@@ -55,6 +55,9 @@ http://www.insight-journal.org/rire/
 12. ANDI(阿尔兹海默症)
 http://adni.loni.usc.edu/data-samples/access-data/
 
+13. Cancer Imaging Archive
+http://www.cancerimagingarchive.net/
+
 # 参考资料
 [1] Baltrušaitis T, Ahuja C, Morency L P. Multimodal machine learning: A survey and taxonomy[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2018.
 

@@ -7,6 +7,9 @@ categories: 学习
 # 写在前面的话
 本文主要是基于Pytorch给出的官方[Tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)，然后我按照自己的喜好编辑成Jupyter文档，后转成本博客，用来作为自己的日常参照材料。
 
+# Pytorch
+Pytorch给我的感觉是：它是基于更高级的封装，实现深度学习更加简单，比较适合科研型的或者是实现一些想法的入门级选手。Tensorflow更适合工程项目，能够比较高效的运行。但是对于一般选手来说，Pytorch更适合，因为它是动态图，在个人代码水平不是很高的情况下，Pytorch的效率是高于Tensorflow的。
+
 ```python
 from __future__ import print_function
 import torch
@@ -401,7 +404,7 @@ print(' '.join('%5s' % classes[labels[j]] for j in range(4)))
 ```
 
 
-![png](output_35_0.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/Pytorch_Tutorial_output_35_0%20.png)
 
 
      deer truck plane horse
@@ -512,7 +515,7 @@ print('GroundTruth: ', ' '.join('%5s' % classes[labels[j]] for j in range(4)))
 ```
 
 
-![png](output_42_0.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/Pytorch_Tutorial_output_42_0.png)
 
 
     GroundTruth:    cat  ship  ship plane
