@@ -8,13 +8,14 @@ categories: 学习
 最近，十分困惑条件随机场是如何工作的，为什么可以加在卷积神经网络的后面作为后处理的部分。虽然理论部分前面的博客也有写过，做过一些总结，不过因为没有实现过代码，所以仍有困惑解决不了，每念至此，心绪不宁，遂作此文，以供参考。
 
 # 具体实现
-本文将实现全连接随机场对非RGB的图像进行分割，主要参考文献[1]以及对应的[github](https://github.com/lucasb-eyer/pydensecrf)代码，另外本文需要安装pydensecrf，可以通过```pip install pydensecrf```安装，安装时需注意，pydensecrf依赖于cython，需要先安装cython。
+本文将实现全连接随机场对非RGB的图像进行分割，主要参考文献[1]以及对应的[github](https://github.com/lucasb-eyer/pydensecrf)代码，另外本文需要安装pydensecrf，可以通过`pip install pydensecrf`安装，安装时需注意，pydensecrf依赖于cython，需要先安装cython。
+
 
 ## 对非RGB图像分割
 本文的代码放在了我的github中命名为CRF的仓库库中，[链接地址](https://github.com/hjyai94/CRF/blob/master/examples/Non%20RGB%20Example.ipynb)，这里的代码来自于[pydensecrf](https://github.com/lucasb-eyer/pydensecrf)。
 
 ### 一元势
-一元势包含了每个像素对应的类别，这些可以来自随机森林或者是深度神经网络的softmax。这里，我们共有两个类别，一个是前景，一个是背景，这里大小设置为$400x500$。我们建立了两个二维的高斯分布，并且平面显示。
+一元势包含了每个像素对应的类别，这些可以来自随机森林或者是深度神经网络的softmax。这里，我们共有两个类别，一个是前景，一个是背景，这里大小设置为$400\times 512$。我们建立了两个二维的高斯分布，并且平面显示。
 
 ```python
 from scipy.stats import multivariate_normal
@@ -43,10 +44,10 @@ plt.figure(figsize=(15,5))
 plt.subplot(1,2,1); plt.imshow(probs[0,:,:]); plt.title('Foreground probability'); plt.axis('off'); plt.colorbar();
 plt.subplot(1,2,2); plt.imshow(probs[1,:,:]); plt.title('Background probability'); plt.axis('off'); plt.colorbar();
 ```
-![png](output_9_1.png)
+![output_9_1.png](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/CRF%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2/output_9_1.png)
 
 
-###  使用一元势进行推断
+### 使用一元势进行推断
 这里我们可以使用一元势进行推断，也就是说这里我们不考虑像素间的相互关联。这样做并不是很好的推断，但是可以这么做。
 ```python
 # Inference without pair-wise terms
@@ -65,7 +66,7 @@ map_soln_unary = map_soln_unary.reshape((H,W))
 # And let's have a look.
 plt.imshow(map_soln_unary); plt.axis('off'); plt.title('MAP Solution without pairwise terms');
 ```
-![png](output_12_0.png)
+![output_12_0.png](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/CRF%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2/output_12_0.png)
 
 ### 二元势
 图像处理中，我们经常使用像素间的双边关系，也就是说，我们认为有相似颜色的或者是相似的位置的像素认为是同一类。下面我们建立这样的双边关系。
@@ -95,10 +96,10 @@ plt.subplot(1,3,1); plt.imshow(img_en[0]); plt.title('Pairwise bilateral [x]'); 
 plt.subplot(1,3,2); plt.imshow(img_en[1]); plt.title('Pairwise bilateral [y]'); plt.axis('off'); plt.colorbar();
 plt.subplot(1,3,3); plt.imshow(img_en[2]); plt.title('Pairwise bilateral [c]'); plt.axis('off'); plt.colorbar();
 ```
-![png](output_17_0.png)
-![png](output_17_0.png)
+![output_17_0.png](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/CRF%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2/output_17_0.png)
+![output_17_0.png](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/CRF%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2/output_18_0.png)
 
-###　使用完整的条件随机场进行推断
+### 使用完整的条件随机场进行推断
 下面我们将一元势与二元势结合起来进行推断，执行不同的迭代次数，有下面的结果。
 ```python
 d = dcrf.DenseCRF2D(W, H, NLABELS)
@@ -136,7 +137,7 @@ plt.title('MAP Solution with DenseCRF\n(20 steps, KL={:.2f})'.format(kl2)); plt.
 plt.subplot(1,3,3); plt.imshow(map_soln3);
 plt.title('MAP Solution with DenseCRF\n(75 steps, KL={:.2f})'.format(kl3)); plt.axis('off');
 ```
-![png](output_21_0.png)
+![output_21_0.png](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/CRF%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2/output_21_0.png)
 
 
 # 参考文献
