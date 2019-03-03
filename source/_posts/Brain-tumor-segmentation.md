@@ -52,12 +52,29 @@ image = image.transpse(1, 0, 2)
 
 ### 3D Slicer 可视化
 SimpleITK 和 Nibabel 是可以在程序中读取医学图像的包，灵活性不强，另外不适合了解医学图像的基本特性，下面我们使用 3D Slicer 来可视化我们的医学图像数据。
-![]()
+{% gp 5-4 %}
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_axis.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_sagittal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_coronal.png)
 
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_axis.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/t1_sagittal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_coronal.png)
+{% endgp %}
+上图中，第一行为 FLAIR 模态，从左到有依次为横断面(Axis plane)，矢状面(Sagittal plane)，冠状面(Coronal plane)，第二行为 T1 模态，从左到右顺序与 FLAIR 相同，另外两个模态因为篇幅的关系不做具体地展示，下面是脑图的 mask 和手工分割肿瘤的真值(可以看做是金标准，但是个人认为还是有区别的)：
+{% gp 5-4 %}
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_axis.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_sagittal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_coronal.png)
+
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_axis.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/t1_sagittal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_coronal.png)
+{% endgp %}
 
 # 模型
 本文使用卷积神经网络，主要结构参考[1]中的结构，不同之处在于为了方便理解，我们只是用了一条通道。模型如下图所示：
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_model.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/brain_tumor_segmentation_model.png)
 训练使用交叉熵作为损失函数，利用 RMSprop 作为优化器，学习率设为 $1e-3$，可以对学习率随着epoch进行调整，这里没有改变，读者可以根据自己的想法进行调整。
 
 # 参考文献
