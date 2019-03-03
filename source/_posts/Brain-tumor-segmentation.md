@@ -61,16 +61,17 @@ SimpleITK 和 Nibabel 是可以在程序中读取医学图像的包，灵活性�
 ![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/t1_sagittal.png)
 ![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_coronal.png)
 {% endgp %}
-上图中，第一行为 FLAIR 模态，从左到有依次为横断面(Axis plane)，矢状面(Sagittal plane)，冠状面(Coronal plane)，第二行为 T1 模态，从左到右顺序与 FLAIR 相同，另外两个模态因为篇幅的关系不做具体地展示，下面是脑图的 mask 和手工分割肿瘤的真值(可以看做是金标准，但是个人认为还是有区别的)：
-{% gp 5-4 %}
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_axis.png)
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_sagittal.png)
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/FLAIR_coronal.png)
+上图中，第一行为 FLAIR 模态，从左到有依次为横断面(Axis plane)，矢状面(Sagittal plane)，冠状面(Coronal plane)，第二行为 T1 模态，从左到右顺序与 FLAIR 相同，另外两个模态因为篇幅的关系不做具体地展示。下面是脑图的 mask 和手工分割肿瘤的真值(可以看做是金标准，但是个人认为还是有区别的)：
+{% gp 5-6 %}
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/mask_axis.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/mask_sagittal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/mask_coronal.png)
 
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_axis.png)
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/t1_sagittal.png)
-![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/T1_coronal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/ground_truth_axis.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/ground_truth_sagittal.png)
+![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/ground_truth_coronal.png)
 {% endgp %}
+
 
 # 模型
 本文使用卷积神经网络，主要结构参考[1]中的结构，不同之处在于为了方便理解，我们只是用了一条通道。模型如下图所示：
