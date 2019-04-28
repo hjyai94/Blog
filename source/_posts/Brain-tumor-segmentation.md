@@ -71,12 +71,20 @@ SimpleITK 和 Nibabel 是可以在程序中读取医学图像的包，灵活性�
 ![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/ground_truth_sagittal.png)
 ![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/ground_truth_coronal.png)
 {% endgp %}
-
+本人使用的数据库来自于项目[2] 中，具体如何得到的 mask 数据并不是很清楚，不过通过 3D slicer 可以手工生成mask数据，这里时间有限，不准备写了。上图中第二行是三个维度的真值图，其中外围浅蓝色为剔除肿瘤之外的区域(label 0)，绿色为 edema(label 2)，红色为 enhance tumor(label 4)，深蓝色区域为 necrosis(label 1)，黄色区域为 non-enhance tumor(label 3)。注：这里使用的 Brats 2015 采用了这5个标签，之后的该数据集进行了调整，将non-enhncing 和 necrosis 合并为 label 1。
 
 # 模型
 本文使用卷积神经网络，主要结构参考[1]中的结构，不同之处在于为了方便理解，我们只是用了一条通道。模型如下图所示：
 ![](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/brain_tumor_segmentation_CNN/brain_tumor_segmentation_model.png)
-训练使用交叉熵作为损失函数，利用 RMSprop 作为优化器，学习率设为 $1e-3$，可以对学习率随着epoch进行调整，这里没有改变，读者可以根据自己的想法进行调整。
+训练使用交叉熵作为损失函数，利用 RMSprop 作为优化器，学习率设为 $1e-3$，可以对学习率随着epoch进行调整，这里没有改变，读者可以根据自己的想法进行调整。具体代码可以在我的github[3]中查看，喜欢记得点个小星星。
+
+# 训练与测试
+训练部分采用随机裁剪图片大小为 $75\times75\times75$ ，输入到神经网络中，最后得到$47\times47\times47$ (因为卷积中没有采用padding，所以出现了输出小于输入的情况)。测试部分使用完全大小的图像 $240 \times 240 \times 225$，输入到网络中得到大小为$212 \times 212 \times 197$，因为脑图的边缘是无效的信息，所以输出的大小与输入和真值维度不一致，不会有影响，只需要补全就行了。
+
+# 结果
+最后网络在三个子区域的分割指标 Dice 为：Whole score 0.6764， Enhancing tumor 0.4478, Tumor core 0.4819，这个结果并不是非常的好，读者如需更高准确度的分割结果，可以调整测试时候的输入图像的维数，将其保持为与训练时输入的图像维数一致，另外可以参考最新的脑肿瘤分割的工作，对代码进行改进。
 
 # 参考文献
 [1] Kamnitsas K, Ledig C, Newcombe V F J, et al. Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation[J]. Medical image analysis, 2017, 36: 61-78.
+[2] https://github.com/yaq007/Autofocus-Layer
+[3] https://github.com/hjyai94/Half_Pathway_DeepMedic
