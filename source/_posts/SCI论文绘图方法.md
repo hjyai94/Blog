@@ -41,10 +41,11 @@ set title "Traing Loss"
 replot
 ```
 将上面的命令以此执行，就能将横坐标设置为"Epoch"，纵坐标设置为"Cross Entropy"，设置图的标题为"Traing Loss"。"replot"将图从重新画一遍，这样我们就会把我们增加内容绘制在图当中了。
-![plot2]()
+![plot2](https://github.com/hjyai94/Blog/blob/master/source/uploads/gnuplot/plot2.png)
 上面的图我们已经基本上画好，图的各种元素已经完备了，但是仍然不好看，所以下面我们来进一步优化我们的图，选一篇我前面在看的文章Dolz等人设计的HyperDense网络[2]，我们按照他们的绘图风格来进一步优化我们的图。
-对比他们的损失函数的图(文献[2]中的图3)，我们可以看出，我们的图名太小，纵坐标的名字不够清晰，图例没有加框，曲线不够平滑。另外我们绘制的是损失函数的收敛曲线，我们应该让其看起来收敛(虽然实际上选取数据的这段还没有收敛)。
+对比他们的损失函数的图(文献[2]中的图3，如下图所示)，我们可以看出，我们的图名太小，纵坐标的名字不够清晰，图例没有加框，曲线不够平滑。另外我们绘制的是损失函数的收敛曲线，我们应该让其看起来收敛(虽然实际上选取数据的这段还没有收敛)。
 首先我们添加网格
+![hyperdense]()
 ```
 set grid
 ```
@@ -57,7 +58,7 @@ set ylabel 'Cross Entropy' font 'times.ttf,14'
 set title 'Traing Loss' font 'times.ttf,14'
 set key font 'times.ttf,12'
 ```
-![plot3]()
+![plot3](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/gnuplot/plot3.png)
 这时我们再看我们画的图，已经基本具有一般学术论文的样子了。但是，我们仍有可以提高的地方，比如说，我们的线条颜色不好看，我们的收敛曲线看不出收敛的态势。
 更改线条的颜色，我们改成红色：
 ```
@@ -83,14 +84,14 @@ set key Left
 set key reverse
 set key samplen 2
 ```
-进过上面一顿猛如虎的操作，我们已经基本上绘制出了可以放在论文里面的图了，下面是我们绘制的结果：
-![plot4]()
-但是，我们仍能优化这个图，我们希望它能更加的平滑，下面我们使它更加平滑，在gnuplot中的数据平滑命令为smooth，然后常用的算法为bezier和esplines。因为esplines需要额外平滑权重，这里我们就使用不需要平滑权重的bezier算法。
+经过上面一顿猛如虎的操作，我们已经基本上绘制出了可以放在论文里面的图了，下面是我们绘制的结果：
+![plot4](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/gnuplot/plot4.png)
+但是，我们仍能优化这个图，我们希望它能更加的平滑。下面我们使它更加平滑，在gnuplot中的数据平滑命令为smooth，然后常用的算法为bezier和esplines。因为esplines需要额外的平滑权重，这里我们就使用不需要平滑权重的bezier算法。
 ```
 plot ”loss.dat“ using 1:2 with lines ls 1 smooth bezier title "CNN"
 ```
 这就可以得到我们最终需要的曲线图了。
-![result]()
+![result](https://raw.githubusercontent.com/hjyai94/Blog/master/source/uploads/gnuplot/result.png)
 
 
 # 参考文献
