@@ -1,8 +1,9 @@
 ---
 title: Pytorch Tutorial
-date: 2018-10-13 
 tags: Pytorch
 categories: 学习
+abbrlink: 49450
+date: 2018-10-13 00:00:00
 ---
 # 写在前面的话
 本文主要是基于Pytorch给出的官方[Tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)，然后我按照自己的喜好编辑成Jupyter文档，后转成本博客，用来作为自己的日常参照材料。

@@ -1,8 +1,9 @@
 ---
 title: Shell学习
-date: 2019-07-11 16:24:40
 tags: Shell
 categories: 学习
+abbrlink: 33307
+date: 2019-07-11 16:24:40
 ---
 # Shell简介
 Shell是用户与操作系统之间的壳，同时也是操作系统与用户交互的接口，GUI和CLI都可以算作Shell。Bash是Ubuntu里默认的Shell。

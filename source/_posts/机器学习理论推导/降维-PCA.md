@@ -1,8 +1,9 @@
 ---
 title: 降维-PCA
-date: 2020-01-01 19:36:25
 tags: 机器学习理论推导
 categories: 学习
+abbrlink: 62495
+date: 2020-01-01 19:36:25
 ---
 # 定义
 $$

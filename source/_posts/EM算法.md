@@ -1,8 +1,9 @@
 ---
 title: EM算法
-date: 2018-05-25 19:45:46
 tags: 概率图模型
 categories: 学习
+abbrlink: 55519
+date: 2018-05-25 19:45:46
 ---
 # 混合高斯模型
 $$ p(x_n\mid , \Sigma) = \Sigma_k \pi_k N(x\mid \mu, \Sigma_k) $$

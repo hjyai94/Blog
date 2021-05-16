@@ -1,9 +1,10 @@
 ---
 title: hexo博客使用
-date: 2017-11-22 10:51:49
 tags:
-- hexo
+  - hexo
 categories: 技术
+abbrlink: 6946
+date: 2017-11-22 10:51:49
 ---
 # 简单的语句
 hexo clean 清理缓存

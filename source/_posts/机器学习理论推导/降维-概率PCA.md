@@ -1,8 +1,9 @@
 ---
 title: 降维-概率PCA
-date: 2020-01-02 16:45:38
 tags: 机器学习理论推导
 categories: 学习
+abbrlink: 52022
+date: 2020-01-02 16:45:38
 ---
 # 定义
 $$x \in \mathbb{R}^p, \quad z \in \mathbb{R}^q, \quad q< p $$   $$x:\ \text{observed data}, z:\ \text{latent variable} $$

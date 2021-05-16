@@ -1,8 +1,9 @@
-﻿---
+---
 title: VGGNet
-date: 2018-08-31 17:43:18
 tags: Deep Learning
 categories: 学习
+abbrlink: 60903
+date: 2018-08-31 17:43:18
 ---
 # VGGNet模型结构
 VGGNet是牛津大学视觉组(Visual Geometry Group)和Google DeepMind公司研究员共同研究出的深度卷积神经网络。VGGNet使用的比较小的卷积核(3x3)以及2x2的最大池化层，通过增加层数增强非线性性能，同时相较于7x7的卷积核而言，减少了参数。

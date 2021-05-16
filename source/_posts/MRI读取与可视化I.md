@@ -1,8 +1,9 @@
 ---
 title: MRI读取与可视化I
-date: 2018-10-18 19:00:40
 tags: Medical Image
 categories: 学习
+abbrlink: 9200
+date: 2018-10-18 19:00:40
 ---
 今天在网上看了一些读取MRI文件的方法，中文的博客并不是很多，另外很多并不适合我的文件格式，本文主要是针对MRI中采用NIFTI(.nii.g其中gz是压缩文件)格式的文件，并进行可视化分析。
 # NIBabel
